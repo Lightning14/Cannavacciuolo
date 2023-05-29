@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background: black;
+}
+
+header img {
+    display: none;
+}
+
+header ul {
+    list-style-type: none; /*si tolgono i punti*/
+    margin: 0; /* si setta tutto a default */
+    padding: 0;
+
+    width: 100vw;
+
+    font-size: 48px;
+    text-align: center;
+}
+
+header li a {
+    display: block; /* serve per rendere tutta l'area dell'elemento "a" cliccabile e che possiamo adesso modificare a nostro piacimento a livello di djmensioni, prima invece non potevamo lavorare sull'area, ma solo sul testo */
+    
+    text-decoration: none; /* toglie le personalizzazioni che hanno i link di default, tipo la sottolineatura */
+    color: black;
+
+    background-color: #c50018;
+    border: 1px solid black;
+}
+
+section {
+    margin-top: 15vh;
+}
+
+#form {
+    text-align: center;
+    color: grey;
+    font-weight: bolder;
+}
